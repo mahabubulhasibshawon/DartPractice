@@ -8,11 +8,7 @@ Welcome to the **Flutter Programs Repository**! This repository contains a colle
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Folder Structure](#folder-structure)
-- [Programs](#programs)
-  - [Basic](#basic)
-  - [Intermediate](#intermediate)
-  - [Advanced](#advanced)
+
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -36,7 +32,7 @@ To get started with these Flutter programs, follow the steps below.
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/flutter-programs.git
+    git clone https://github.com/mahabubulhasibshawon/DartPractice.git
     cd flutter-programs
     ```
 
@@ -58,21 +54,4 @@ To get started with these Flutter programs, follow the steps below.
     flutter run
     ```
 
-## 📂 Folder Structure
 
-The repository is organized into three main sections:
-
-```plaintext
-flutter-programs/
-├── basic/
-│   ├── hello_world/
-│   ├── counter_app/
-│   └── ...
-├── intermediate/
-│   ├── login_ui/
-│   ├── todo_app/
-│   └── ...
-├── advanced/
-│   ├── chat_app/
-│   ├── e_commerce_app/
-│   └── ...
