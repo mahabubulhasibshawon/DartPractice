@@ -8,4 +8,7 @@ void main(){
   print(student);
 //   print individual key
   print(student['name']);
+//   add a key
+  student['country']= 'Bangladesh';
+  print(student);
 }
