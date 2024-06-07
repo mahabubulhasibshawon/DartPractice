@@ -1,0 +1,23 @@
+/*
+* This the concept of Inheritance. here child class (son) can access
+* parents class(father) as it extends Father
+* In method overriding child can modify parents class object
+* */
+
+class Father{
+  TotalTaka(){
+    print("Total Amount = 800000000");
+  }
+}
+class Son extends Father{
+  // method overriding
+  TotalTaka(){
+    print("Total Amount = 1000000000");
+  }
+}
+void main(){
+  var SonObj = Son();
+  SonObj.TotalTaka();
+  var FatherObj = Father();
+  FatherObj.TotalTaka();
+}
