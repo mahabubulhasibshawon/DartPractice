@@ -5,8 +5,14 @@ void main(){
   Library library = Library();
   library.addBook(book1);
   library.addBook(book2);
-  library.listBook();
+
+
+  Member member = Member('Hasib', 'M0001');
+
+  library.loansBook(book1, member);
+  library.listLoansBook();
 }
+
 class Book{
   String title;
   String author;
@@ -15,16 +21,50 @@ class Book{
 
   Book(this.title, this.author, this.isbn, this.isAvailable);
 }
+
 class Library{
   List<Book> books =[];
   List<Loan> loans =[];
+
+  void loansBook(Book book, Member member){
+    if(book.isAvailable){
+      book.isAvailable = false;
+      loans.add(Loan(book, member, DateTime.now()));
+    }
+    else{
+      print('${book.title} is not available');
+    }
+  }
+
   void addBook(Book book){
     books.add(book);
   }
-  void listBook(){
-    print('----List All books in Library----');
-    for(var book in books){
-      print('Title: ${book.title}, Author: ${book.author}, ISBN: ${book.isbn}, Available: ${book.isAvailable}');
+
+  void listLoansBook(){
+    print('----List All books Library----');
+    for(var loan in loans){
+      print('Title: ${loan.book.title}, Author: ${loan.book.author}, ISBN: ${loan.book.isbn}, Available: ${loan.book.isAvailable}');
     }
   }
+}
+
+class Loan{
+  Book book;
+  Member member;
+  DateTime loanDate;
+  DateTime? returnDate;
+
+  Loan(this.book, this.member, this.loanDate, [this.returnDate]);
+
+  void returnBook(){
+    returnDate = DateTime.now();
+    book.isAvailable = true;
+  }
+}
+
+class Member{
+  String name;
+  String numberId;
+
+  Member(this.name , this.numberId);
 }
