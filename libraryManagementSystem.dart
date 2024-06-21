@@ -15,3 +15,16 @@ class Book{
 
   Book(this.title, this.author, this.isbn, this.isAvailable);
 }
+class Library{
+  List<Book> books =[];
+  List<Loan> loans =[];
+  void addBook(Book book){
+    books.add(book);
+  }
+  void listBook(){
+    print('----List All books in Library----');
+    for(var book in books){
+      print('Title: ${book.title}, Author: ${book.author}, ISBN: ${book.isbn}, Available: ${book.isAvailable}');
+    }
+  }
+}
