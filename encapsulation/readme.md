@@ -10,7 +10,6 @@ This README provides an overview of encapsulation in Dart, demonstrating how to 
 - [Creating Classes and Objects](#creating-classes-and-objects)
 - [Private Variables and Methods](#private-variables-and-methods)
 - [Getters and Setters](#getters-and-setters)
-- [Example Implementation](#example-implementation)
 - [Conclusion](#conclusion)
 
 ## Introduction
