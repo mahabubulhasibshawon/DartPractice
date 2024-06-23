@@ -2,7 +2,6 @@
 ## UML DIAGRAM
 ![img](https://github.com/mahabubulhasibshawon/DartPractice/assets/96023468/a75ab114-7a62-46fc-83f2-353490625925)
 
-# School Management System
 
 ## Overview
 
