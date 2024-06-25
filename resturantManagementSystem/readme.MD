@@ -100,6 +100,9 @@ restaurant_management_system/
 - `reserve(Customer customer)`
 - `assignWaitstaff(Employee employee)`
 
+## UML Diagram
+![resturantManagementSystem](https://github.com/mahabubulhasibshawon/DartPractice/assets/96023468/0b07b664-c275-4049-8826-6941b19705f5)
+
 ## Usage
 
 To run this project, ensure you have Dart installed. Then, follow these steps:
