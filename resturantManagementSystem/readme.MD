@@ -1,5 +1,3 @@
-### README.md
-
 ## Restaurant Management System
 
 This project is a simple restaurant management system implemented in Dart. It demonstrates the use of classes and object-oriented programming concepts to manage a restaurant's menu items, customers, employees, tables, and orders.
@@ -125,7 +123,7 @@ To run this project, ensure you have Dart installed. Then, follow these steps:
 
 ### Creating a Restaurant
 ```dart
-Restaurant restaurant = Restaurant('Gourmet Palace', '123 Flavor St', '555-1234');
+Restaurant restaurant = Restaurant('Kashem Food Coner', 'Sector 11, Uttara', '01912009933');
 ```
 
 ### Adding Menu Items
