@@ -1,7 +1,6 @@
 ### README.md
 
-```markdown
-# Restaurant Management System
+## Restaurant Management System
 
 This project is a simple restaurant management system implemented in Dart. It demonstrates the use of classes and object-oriented programming concepts to manage a restaurant's menu items, customers, employees, tables, and orders.
 
