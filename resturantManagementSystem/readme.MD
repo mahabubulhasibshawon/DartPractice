@@ -109,7 +109,7 @@ To run this project, ensure you have Dart installed. Then, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/restaurant_management_system.git
+   git clone https://github.com/mahabubulhasibshawon/restaurant_management_system.git
    ```
 
 2. Navigate to the project directory:
