@@ -75,7 +75,7 @@ A School Management System to manage students, teachers, courses, classrooms, an
 - `date`: DateTime
 
 **Methods:**
-- `assignGrade()`: Assigns a grade to a student for a specific course.
+- `assignGrade()`: Assigns a grade to a student for a specific course
 
 ## Relationships
 
