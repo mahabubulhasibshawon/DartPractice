@@ -9,12 +9,14 @@ void main(){
   print(binomiaCoefficient(n, r));
 }
 
+// using recursion 
 int factorial(int n ){
-  int fun = 1;
-  for(int i = n; i>=1; --i){
-    fun = fun * i;
+  if(n == 0 ){
+    return 1;
   }
-  return fun;
+  else{
+    return n * factorial(n-1);
+  }
 }
 
 double binomiaCoefficient(int n, int r){
