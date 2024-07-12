@@ -2,7 +2,7 @@
 
 This project is a simple restaurant management system implemented in Dart. It demonstrates the use of classes and object-oriented programming concepts to manage a restaurant's menu items, customers, employees, tables, and orders.
 
-## Table of Contents
+## Table of Contents.
 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
